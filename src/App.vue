@@ -7,9 +7,6 @@
 
 <script>
 import TodoList from '@/components/TodoList.vue';
-
-
-
 export default {
   name: "app",
   components: {
@@ -29,5 +26,8 @@ export default {
   text-align: center;
   color: red;
   margin-top: 60px;
+}
+.input{
+  width: 300px;
 }
 </style>

@@ -19,14 +19,12 @@ export default {
     data(){
         return{
           todos: ["pomme", "poire", "chocolat"],
-          newTodoText: "toto",
+          newTodoText: "",
         };
         
     },
     methods: {
-        addTodo(){
-            alert("test");
-        }
+        addTodo(){}
     }
 
 };
