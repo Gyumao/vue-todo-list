@@ -1,6 +1,6 @@
 <template>
     <div>
-        <TodoInputText v-model="newTodoText"/>
+        <TodoInputText v-model="newTodoText" @keydown.enter="addTodo"/>
         <TodoListItem :todos="todos" />
     </div>
 </template>
@@ -8,6 +8,7 @@
 <script>
 import TodoInputText from '@/components/TodoInputText.vue';
 import TodoListItem from '@/components/TodoListItem.vue';
+
 
 export default {
     components:{
@@ -21,7 +22,12 @@ export default {
           newTodoText: "toto",
         };
         
-    } 
+    },
+    methods: {
+        addTodo(){
+            alert("test");
+        }
+    }
 
 };
 </script>
