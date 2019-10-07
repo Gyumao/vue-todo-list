@@ -1,7 +1,5 @@
 <template>
-  <div>
-      <h1 class="title is-1">boujour a vous</h1>
-  </div>
+  
 </template>
 
 <script>
