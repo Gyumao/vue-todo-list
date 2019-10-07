@@ -1,6 +1,6 @@
 <template>
-    <div>
-      <h1 class="title is-1">boujour a vous</h1>
+    <div >
+        <input class="input is-large" type="text" placeholder="Large input">
     </div>
 </template>
 
