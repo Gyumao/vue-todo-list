@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <h1 class="title is-1">boujour a vous</h1>
-  </div>
+  <TodoList />
 </template>
 
 <script>
+import TodoList from '@/components/TodoList.vue';
 
 
 export default {
   name: "app",
   components: {
+    TodoList,
     
   }
 };
