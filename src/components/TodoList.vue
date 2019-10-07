@@ -1,13 +1,24 @@
 <template>
     <div>
-      <h1 class="title is-1">boujour a vous</h1>
+        <TodoInputText />
     </div>
 </template>
 
 <script>
-export default {
+import TodoInputText from '@/components/TodoInputText.vue';
 
-}
+export default {
+    components:{
+        TodoInputText,
+
+    },
+    data(){
+        return{
+          todo: [pomme, poire, chocolat]
+        };
+    } 
+
+};
 </script>
 
 <style>
