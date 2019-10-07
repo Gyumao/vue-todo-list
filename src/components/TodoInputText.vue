@@ -1,6 +1,6 @@
 <template>
     <div class="control has-icons-left has-icons-right">
-        <input class="input is-medium" type="text" placeholder="Enter your task" />
+        <input class="input is-medium" type="text" placeholder="Enter your task" :value="value"/>
         <span class="icon is-left">
         <i class="fas fa-check"></i>
         </span>
@@ -9,6 +9,7 @@
 
 <script>
 export default {
+    props: ["value"],
 
 };
 </script>
